@@ -1,5 +1,7 @@
 .layout img {
-  margin: auto;
+  position: absolute;
+  top: 5%;
+  left: 7%;
   max-width: 98%;
   display: block;
   height: auto;
