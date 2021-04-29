@@ -1,0 +1,50 @@
+.hero {
+  display: block;
+  min-height: 83vh;
+}
+.hero .hero_title {
+  font-size: 9vw;
+  font-family: rama-gothic-c, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  /* text-transform: uppercase; */
+  position: absolute;
+  top: 39%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.hero .hero_title .left_title {
+  /* display: inherit; */
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  white-space: nowrap;
+  line-height: 1.7;
+  /* overflow: hidden; */
+}
+.hero .hero_title .left_title span {
+  display: block;
+}
+.hero .hero_title .right_title {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  line-height: 0.8;
+  /* overflow: hidden; */
+  margin-top: 13vw;
+  padding-left: 100%;
+  color: #d6d6d6;
+}
+.hero .hero_image {
+  position: absolute;
+  z-index: 0;
+  right: 6.7%;
+  bottom: -22%;
+  width: 44vw;
+  height: 39vw;
+  background-color: #ececec;
+  overflow: hidden;
+}

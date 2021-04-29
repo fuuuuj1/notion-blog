@@ -1,0 +1,13 @@
+.band {
+  position: relative;
+  height: 29vw;
+  z-index: -1;
+}
+.band .banding {
+  position: absolute;
+  right: 0;
+  width: 91%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+}
